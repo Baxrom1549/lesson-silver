@@ -86,3 +86,28 @@ padding-bottom: 50px;
     margin-top: 50px;
     display: flex;
 }
+/* footer */
+.footer{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer_contact p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #808080;
+}
+.footer_contact a{
+    font-size: 25px;
+    font-weight: 700;
+    color: #808080;
+}
